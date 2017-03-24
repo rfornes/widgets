@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="https://www.goodlookingbean.com/sidebar/dist/css/styles.min.css">
+  
+  <style>.tvp-sidebar-load { border-radius: 0;}</style>
+</head>
+<body data-id='sidebar-1'>
+<div id='sidebar-1' class="iframe-content">
+  <div class="tvp-sidebar-title">Recommended Videos</div>
+  <div class="tvp-sidebar-container"></div>
+  <div class="tvp-sidebar-footer">
+    <button class="tvp-sidebar-load">View More</button>
+    <a class="tvp-logo" target="_blank" href="https://www.tvpage.com/">
+      <div class="tvp-logo-img"></div>
+    </a>
+  </div>
+  <div class="tvp-cover"></div>
+</div>
+<script id="gridItemTemplate" type="text/template">
+  <div id="tvp-video-{id}" class="tvp-video{className}">
+    <div class="tvp-video-image" style="background-image:url({asset.thumbnailUrl})">
+      <svg class="tvp-video-play" viewBox="0 0 200 200" alt="Play video"><polygon points="70, 55 70, 145 145, 100"></polygon></svg>
+      <div class="tvp-video-image-overlay"></div>
+    </div>
+    <p class="tvp-video-title">{title}</p>
+  </div>
+</script>
+<script>
+  window.__TVPage__ = window.__TVPage__ || {};
+  __TVPage__.config = __TVPage__.config || {};
+  __TVPage__.config["sidebar-1"] = {"analytics":true,"autonext":false,"autoplay":false,"channelid":"66133904","description":"The Good Looking Bean, did you want a coffee?","hostdomain":"www.goodlookingbean.com","itemPlayButtonBackground":"white","itemPlayButtonBorder":"1px solid black","itemPlayButtonBorderRadius":"0","itemPlayButtonIconColor":"black","itemTitleColor":"#333333","itemsPerPage":"6","itemsPerRow":"2","loadButtonBackgroundColor":"#1F1D26","loadButtonText":"View More","loadButtonTextColor":"white","load_button_border_radius":"0","loginId":"1758799","name":"sidebar-1","play_button_background_color":"fff","play_button_border_radius":"50","play_button_icon_color":"000","player_version":"1.8.5","progress_color":"#E57211","progresscolor":"#E57211","remove_controls":["tvplogo","hd"],"removecontrols":["tvplogo","hd"],"subfolder":"","title":"Recommended Videos","transcript":false,"version":"1.8.4"};
+  __TVPage__.config["sidebar-1"].channel = {
+    id: '66133904'
+  };
+</script>
+
+<script src="https://www.goodlookingbean.com/sidebar/dist/js/scripts.min.js"></script>
+
+</body>
+</html>
